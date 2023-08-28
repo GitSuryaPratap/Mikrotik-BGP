@@ -1,0 +1,10 @@
+#ROUTER-1
+/routing/bgp/connection
+add name=For-R2 remote.address=172.50.70.2 as=75531 local.role=ebgp
+
+#ROUTER-2
+/routing/bgp/connection
+add name=For-R1 remote.address=172.50.70.1 as=85532 local.role=ebgp
+
+
+
