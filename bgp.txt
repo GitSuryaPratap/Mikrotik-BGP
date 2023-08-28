@@ -1,3 +1,10 @@
+
+##-NOTED-## 
+     There can be two types of BGP connections:
+iBGP - is an "internal" link connecting peers from the same AS
+eBGP - is an "external" link connecting peers belonging to two different AS-es
+
+
 #ROUTER-1
 /routing/bgp/connection
 add name=For-R2 remote.address=172.50.70.2 as=75531 local.role=ebgp
